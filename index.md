@@ -22,7 +22,7 @@ The research assistant will draft the data management plan for the PI to review 
 
 It will be the research assistant’ responsibility to be the data manager after data are collected. The research assistant will be responsible for downloading and storing any data they collected in the same location (a shared folder on the OSU drive), and making sure to format and name the files appropriately. No sensitive or confidential data will be collected for this project. 
 
-Data analysis will be primarily performed by the research assistant, with assistant/supervision from the PI and the Technical Advisory Committee (TAC) from the ODOT. The research assistant will be responsible to document the analysis process and associated files in the shared drive. After the project is completed, the PI will be the primary researcher responsible for data archiving and preservation. 
+Data analysis will be primarily performed by the research assistant, with assistant/supervision from the PI and the Technical Advisory Committee (TAC). The research assistant will be responsible to document the analysis process and associated files in the shared drive. After the project is completed, the PI will be the primary researcher responsible for data archiving and preservation. 
 
 If the research assistant has to leave the project, all the data generated will be transferred to the PI. The PI will be the main person to ensure data are organized, managed and backup properly.
 
