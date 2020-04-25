@@ -1,6 +1,7 @@
 # Data Management Plan
 
 ## Data Description
+
 ### Dataset Types and Methods of Collection
 To do so, both qualitative and quantitative data about the implemented traffic control measures and traffic data will be collected based on observations. Six datasets are needed, they are: 1) information about traffic control measure used, including their GPS coordinates, placement date and time frames; 2) traffic sensor data, including their ID and placement information (GPS coordinates and work zone locations); 3) traffic data, which are collected by traffic sensors, including sensor IDs and information about passing vehicles (time stamps, travel speeds and vehicle lengths); and 4) text, photo, and video files that document work zone layout and conditions, and observed driver behavior changes in response to the presence of traffic control measures throughout the study.
 
