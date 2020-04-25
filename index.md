@@ -1,7 +1,6 @@
 # Data Management Plan
 
 ## Data Description
-###
 ### Dataset Types and Methods of Collection
 To do so, both qualitative and quantitative data about the implemented traffic control measures and traffic data will be collected based on observations. Six datasets are needed, they are: 1) information about traffic control measure used, including their GPS coordinates, placement date and time frames; 2) traffic sensor data, including their ID and placement information (GPS coordinates and work zone locations); 3) traffic data, which are collected by traffic sensors, including sensor IDs and information about passing vehicles (time stamps, travel speeds and vehicle lengths); and 4) text, photo, and video files that document work zone layout and conditions, and observed driver behavior changes in response to the presence of traffic control measures throughout the study.
 
@@ -14,7 +13,6 @@ Quantitative data manipulation and analysis will be completed using R software. 
 It is anticipated to collect field case study data on three work zones, three days per work zones. The expected volume of data collected will be between 20 to 30 GB.
 
 ## Roles and Responsibilities
-
 The research assistant will draft the data management plan for the PI to review and revise. The PI will be responsible to ensure the data management plan is followed throughout the course. Prior to data collection, the research assistant has to ensure all the equipment (traffic sensors, GPS loggers, video cameras, etc) are fully-charged, and calibration tests of traffic sensors are performed. The funding agency will not collect or provide any raw data. Data collection will be conducted by the PI and the research assistant, with occasional assistance from members from the PI’s research group. 
 
 It will be the research assistant’ responsibility to be the data manager after data are collected. The research assistant will be responsible for downloading and storing any data they collected in the same location (a shared folder on the OSU drive), and making sure to format and name the files appropriately. No sensitive or confidential data will be collected for this project. 
