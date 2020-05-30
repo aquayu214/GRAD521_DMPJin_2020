@@ -131,5 +131,7 @@ For the present study, all data are currently stored on a local computer at the 
 The local copy and the one on the Box folder will be retained and maintained by the research assistant throughout the duration of the project, while those kept on the shared drive and the external drive will be kept at least 5 years after project completion. This will allow the PI to access, download, and reuse the data after graduation of the research assistant. 
 
 ## Access and Data sharing
-## Archiving and Preservation
+The data collected in the present study do not contain personal identifiable information or human subjects. All data and associated metadata will be made available on the ScholarArchive@OSU repository under the public domain (CC 1.0 Universal license, similar to a previous study https://ir.library.oregonstate.edu/concern/datasets/mw22vb94j?locale=en). Redistribution, reuse, and creation of derivatives of the data  are allowed. The data will be shared at the time of the research report is published by the sponsor (Oregon Department of Transportation). Spreadsheets in the form of csv files, observational log in the form of pdf files, photos in the form of jpg files, and videos in the mov files will be made available. 
 
+## Archiving and Preservation
+It is expected the ScholarArchive@OSU will preserve the datasets as long as possible and ensure the datasets are publicly available. In addition, the PI will keep backup copies (with the same formats as described previously) locally, and retain copies on Box to provide additional security for at least 5 years after project completion for possible additional analysis or data reuse. After that, data will be accessible from the ScholarArchive@OSU website as needed. 
