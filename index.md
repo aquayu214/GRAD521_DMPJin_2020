@@ -3,7 +3,7 @@
 ## Data Description
 
 ### Dataset Types and Methods of Collection
-To do so, both qualitative and quantitative data about the implemented traffic control measures and traffic data will be collected based on observations. Six datasets are needed, they are: 1) information about traffic control measure used, including their GPS coordinates, placement date and time frames; 2) traffic sensor data, including their ID and placement information (GPS coordinates and work zone locations); 3) traffic data, which are collected by traffic sensors, including sensor IDs and information about passing vehicles (time stamps, travel speeds and vehicle lengths); and 4) text, photo, and video files that document work zone layout and conditions, and observed driver behavior changes in response to the presence of traffic control measures throughout the study.
+To do so, both qualitative and quantitative data about the implemented traffic control measures and traffic data will be collected based on observations. Two primary datasets are needed, they are: 1) data collected by traffic sensors and GPS loggers, including their ID and placement information (GPS coordinates and work zone locations), as well as information about passing vehicles (time stamps, travel speeds and vehicle lengths); and 2) digital files (text, photo, and video files) document work zone layout and conditions, and observed driver behavior changes in response to the presence of traffic control measures throughout the study.
 
 Several portable traffic sensors will be used to collect traffic data. Handheld GPS devices and GPS trackers will be used to record the GPS coordinates of the placed traffic sensors and the implemented traffic control measures. An iPhone camera and a video camera will take photos and videos about the examined work zones and passing vehicles. Handwritten notes taken during the data collection will be documented in Word. 
 
@@ -23,6 +23,106 @@ Data analysis will be primarily performed by the research assistant, with assist
 If the research assistant has to leave the project, all the data generated will be transferred to the PI. The PI will be the main person to ensure data are organized, managed and backup properly.
 
 ## Data Standards and Metadata
+There are no metadata standards that could be applicable for this research project in the civil engineering field. However, a file structure is pre-defined and will be followed to maintain data generated throughout the study. Files will be stored in separate folders based on different case study projects, subfolders will store raw data, processed data, and data analysis procedures associated with each project, and other appropriate subsections to store data that are collected with different equipment (e.g., GPS loggers, traffic sensors and cameras). To be specific, three main types of data will be included in this project, as described previously. The following content provides a description of what metadata will be generated and version control measures that will be taken for the three datasets.
+
+Dataset 1: data collected with GPS loggers and traffic sensors. The excel datasets will be named following casestudyNo_equipmentID_YYYYMMDD.csv where casestudyname is a abbreviation of the case study project name, equipmentID is an identifier of the equipment used to collect the data, and YYYYMMDD is the date that data are collected. A text file will be stored describing who and when the data are collected, contact information, and general information of the variables including units, description, abbreviations, and list of possible values when necessary. Since this dataset contains primarily raw data generated at the data collection stage, it is not expected they will change over the time, no version control will be applied to this dataset.
+
+Dataset 2: digital files. For the digital files, .txt files delineating details about data logger/photographer, work zone conditions, and traffic control treatments will be uploaded in the associated folders. Similar to dataset 1, no version control will be used for this raw dataset.
+
+Dataset 3: data analysis files with R. The file names of the R scripts generated will follow casestudyNo_codepurpose.R. Version control will be applied to this dataset using Git, and will also be done manually by adding a date to the name file, and keeping a log of the differences. In addition, a text file will keep the general information about details of the analysis procedure, links to the inputs and outputs, and contact information of the people who created these files.
+
+A master metadata file will be created throughout the research process, and will store information including but no limited to:
+1) contact information for project members;
+2) a brief introduction of the overall study;
+3) data structure, a uniform description of the dataset that helps to locate specific files easily;
+4) a master data dictionary that contains abbreviation meanings, controlled vocabularies, etc. ;
+5) a summary description of the data collection for each case study project, such as the start and end mileposts of the roadway section, when the data were collected, and what traffic control treatments was placed;
+6) a brief description of analysis procedure;
+7) URLs for public available reports or datasets, if available.
+
+### Master Metadata Template
+
+Attached is a draft template that will be used for the master metadata.
+
+[Instructions in between square parenthesis]
+
+-----------Context-----------
+
+1. Project title:
+
+2. Project abstract:
+
+3. Project members and contact information:
+
+4. Where to find more information about the overall project:
+
+[Links to other documentation files somewhere else or to project website]
+
+5. Data structure
+
+[An example structure is provided below, add some descriptions if necessary]
+
+    01_CaseStudy1
+       01_RawData
+         01_TrafficSensor
+         02_GPSLogger
+         03_Others
+           01_Photos
+           02_Videos
+           03_Observations  
+        02_ProcessedData  
+        03_DataAnalysis
+    02_CaseStudy2 (structure similar to 01_CaseStudy1)
+    03_CaseStudy3 (structure similar to 01_CaseStudy1)
+    04_Report
+
+6. Data dictionary
+
+[Some examples are provided below.]
+
+COV: Coefficient of variation, a standardized measure of data dispersion. COV is often measured as the ratio of the standard deviation to the mean of a data set.
+
+RWA: Road Work Ahead signs used in work zones to indicate the start point of the advance warning area of a work zone.
+
+PCMS: Portable changeable message signs.
+
+7. Data collection
+
+Case study project number and name:[Example: 01__Swanson Canyon]
+
+Location:[Example: Interstate 84]
+
+Start and end mileposts:[Example: MP 125.5 and MP 129]
+
+Personnel who collected the data:[Surname, Name]
+
+Data collection period:[mmddyyyy - MMDDYYYY]
+
+Equipment list:[Example: 10 M.H. Corbin NC-200, and 5 NC-350 Portable Traffic Analyzers]
+
+Traffic control treatments examined:[Example: PCMS, Pilot vehicle]
+
+Where to find more information about the data collection for each case study project: [Links to other documentation files somewhere else]
+
+8. Data analysis
+
+Software and version used: [Example: RStudio ver Version 1.0.153]
+
+Main data analysis procedures:
+[Example]:
+
+1) Data filtering [input: path + filename, output: path + filename]
+2) Data aggregation [input: path + filename, output: path + filename]
+3) Summary statistics [input: path + filename, output: path + filename]
+4) Statistic analysis [input: path + filename, output: path + filename]
+
+Where to find more information about the data analysis: 
+[Links to other documentation files]
+
+9. Related materials:
+[URLs]
+
 ## Storage and Security
 ## Access and Data sharing
 ## Archiving and Preservation
+
