@@ -126,6 +126,10 @@ Where to find more information about the data analysis:
 [URLs]
 
 ## Storage and Security
+For the present study, all data are currently stored on a local computer at the School of Civil and Construction Engineering at Oregon State University, and are also saved on the shared research folder that is hosted by the department and shared by the research team. To retain extra copies of the research data, files are synced to the research assistant’s Box project folder automatically, and full backups on an external drive are done monthly and the external drive is kept at a safe place. By saving data in multiple locations and keeping extra copies, it prevents loss or corruption of the data from unfortunate circumstances (e.g., thefts, technological failures, human errors, etc.). 
+
+The local copy and the one on the Box folder will be retained and maintained by the research assistant throughout the duration of the project, while those kept on the shared drive and the external drive will be kept at least 5 years after project completion. This will allow the PI to access, download, and reuse the data after graduation of the research assistant. 
+
 ## Access and Data sharing
 ## Archiving and Preservation
 
